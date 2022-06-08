@@ -1,0 +1,269 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    height:100vh;
+    width:50%;
+    border:1px solid white;
+    border-radius:10px;
+}
+.menu-top{
+    display:flex;
+}
+.main2{
+    display:flex;
+    border:1px solid white;
+}
+
+.header{
+    display:flex;
+    
+    justify-content: space-between;
+  
+}
+.header_image{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+    
+    width:100%;
+}
+.header_image:first-child{
+    margin-left:20px;
+}
+.header_image:last-child{
+    margin-right:20px;
+    
+}
+.content-image{
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+}
+.content-image__sub{
+    width:150px;
+    height:150px;
+    border-radius:50px;
+
+}
+.content-title{
+    display:flex;
+    justify-content: center;
+}
+.content-title__subtitle{
+    display:flex;
+    justify-content: center;
+
+}
+.content-title__subtitle__subtitle{
+    color:rgba(0,0,0,0.3);
+}
+
+.main-title{
+    margin-top:40px;
+    display:flex;
+    justify-content: space-evenly;
+
+
+}
+.main-title_text{
+    border:1px solid black;
+    width:125px;
+    height:50px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+}
+.main-title_heart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-title_heart__subtitle{
+    margin-left:10px;
+    color:rgba(0,0,0,0.3);
+    font-size:16px;
+}
+.footer{
+    margin-top:20px;
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+}
+.footer-menu{
+    display:flex;
+    position:relative;
+}
+.footer-menu__image__img{
+  width:90px;
+  height:90px;
+  border-radius:10px;
+  margin-right:10px;
+  margin-bottom:20px;
+}
+.footer-menu__title{
+    display:flex;
+    
+    align-items: center;
+    margin-top:-10px;
+    flex-direction: column;
+    
+}
+.footer-menu__title__center{
+    color:red;
+    opacity: 0.3;
+}
+.footer-menu__subtitle{
+    font-weight:600;
+    
+}
+
+.icon{
+    position:absolute;
+    right:20px;
+    top:25px;
+}
+.last{
+    margin-top:-100px;
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    position:fixed;
+    width:400px;
+    height:100px;
+    border-radius:25px;
+    background-color: black;
+    
+}
+
+.last-menu{
+    display:flex;
+    
+}
+.last-font{
+    margin-left:20px;
+  
+    color:white;
+}
+.last-font__title{
+    opacity: 0.5;
+}
+.last-icon{
+    position:absolute;
+    right:0px;
+    top:50px;
+    margin-right:50px;
+    padding:0px 20px;
+    color:white;
+}
+.last-icon:nth-child(1){
+    margin-right:500px;
+}
+.last-font__subtitle{
+    color:red;
+}
+.menu2{
+    width:50%;
+    height:100vh;
+    border:1px solid white;
+    
+}
+
+.header2-topimage{
+    display:flex;
+ 
+}
+.header2-topimage__support{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:10px;
+
+}
+
+.album{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    flex-direction: column;
+   
+}
+.album_image_title{
+   width:300px;
+   height:300px;
+   border-radius:50px;
+   box-shadow:0px 3px pink;
+
+}
+.album_title__sub{
+    margin-top:50px;
+    font-size:26px;
+}
+.album_title__subtitle{
+    opacity: 0.3;
+}
+.album_font{
+    display:flex;
+    justify-content: space-between;
+    opacity: 0.3;
+    font-size:14px;
+   margin-left:20px;
+   margin-right:20px;
+   margin-top:50px;
+}
+
+input[type="range"]{
+    width:95%;
+    margin-top:10px;
+   
+}
+
+.main2-footer{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+  
+}
+.main2-footer__image{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    
+}
+.main2-footer__image__left,
+.main2-footer__image__right{
+    margin:0px 15px;
+    opacity: 0.3;
+}
+
+.main2-footer__image__leftplay,
+.main2-footer__image__rightplay{
+
+}
+.main2-footer__image__centerplay{
+    border:1px solid black;
+    width:75px;
+    height:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px;
+    background-color: black;
+    color:white;
+
+}
+
+
+
+
+
+
+

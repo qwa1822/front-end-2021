@@ -1,0 +1,142 @@
+body{
+    margin:0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.content-one{
+    display:flex;
+}
+.main1{
+    width:50%;
+    border:1px solid red;
+    height:100vh;
+}
+.header-two{
+    display:flex;
+    margin:15px 15px;
+
+}
+.header-two-icon{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    
+}
+.center-content{
+    margin-top:30px;
+}
+.center-content-img{
+   
+    display:flex;
+    justify-content: center;
+
+}
+.center-content-img__1{
+    width:150px;
+    height:150px;
+    border-radius:50px;
+}
+.center-content__title{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.center-content__title__1{
+    margin-top:20px;
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.center-content__subtitle{
+    opacity:0.3;
+}
+.shuffle{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-around;
+}
+.shuffle-1{
+    border:1px solid black;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    background-color: black;
+    color:white;
+    width:70px;
+    height:50px;
+    border-radius:25px;
+
+}
+.shuffle-heart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.shuffle-heart__212{
+    opacity: 0.3;
+    margin-left:10px;
+}
+.music{
+    margin-top:20px;
+    margin-left:30px;
+    display:flex;
+    flex-direction: column;
+   
+    
+}
+.music_and_title{
+    display:flex;
+    position:relative;
+}
+
+.music__img1{
+    width:100px;
+    height:100px;
+    border-radius:25px;
+    margin-bottom:10px;
+
+}
+.music-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:10px;
+    
+}
+.music-title__born{
+    opacity: 0.3;
+}
+.music-icon{
+    position:absolute;
+    right:10px;
+    top:50px;
+   
+}
+.footer{
+    margin-top:10px;
+    border:1px solid black;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    height:150px;
+    background-color: black;
+}
+.footer-menu__title{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+    margin-top:20px;
+    color:white;
+}
+.footer-menu__icon{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+}
+.footer-menu__title_born{
+    opacity: 0.3;
+}

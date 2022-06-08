@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "웹프로그래밍",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "..\\..\\..\\Downloads\\starbucks-vanilla-app-master\\starbucks-vanilla-app-master\\images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "웹프로그래밍"
+	}
+}
